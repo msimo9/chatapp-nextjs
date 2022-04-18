@@ -2,7 +2,6 @@ import Link from "next/link"
 import { useRouter } from "next/router";
 import react, {useState, useEffect} from "react";
 import useEventListener from '@use-it/event-listener'
-import { NextResponse, NextRequest } from 'next/server'
 
 import randomWords from "./api/randomWords";
 

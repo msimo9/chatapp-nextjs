@@ -1,6 +1,6 @@
 import Link from "next/link";
 import react, {useState} from "react";
-import { Slider, Stack } from "@mui/material";
+import { Slider } from "@mui/material";
 export default function HomePage() {
     const [timedModal, setTimedModal] = useState(false);
     const [countModal, setCountModal] = useState(false);
