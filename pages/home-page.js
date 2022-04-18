@@ -13,10 +13,10 @@ export default function HomePage() {
         setCountModal(!countModal);
     }
     const [bgColor, setBgColor] = useState("bg-blue-100");
-    const twStyle = "w-screen h-screen flex justify-center items-center flex-col ";
+    let twStyle = "w-screen h-screen flex justify-center items-center flex-col ";
     twStyle += bgColor;
     const buttonStyle = " py-2 px-4 bg-white border-2 border-white rounded-3xl hover:cursor-pointer w-36 flex justify-center items-center hover:w-40 duration-300 transition-all text-xs font-thin";
-    const modalButtonStyle = " py-2 px-4 text-black border-2 border-white rounded-3xl hover:cursor-pointer w-28 flex justify-center items-center hover:w-40 duration-300 transition-all text-xs font-semibold ";
+    let modalButtonStyle = " py-2 px-4 text-black border-2 border-white rounded-3xl hover:cursor-pointer w-28 flex justify-center items-center hover:w-40 duration-300 transition-all text-xs font-semibold ";
     modalButtonStyle += bgColor;
 
     const [customTime, setCustomTime] = useState(70);
